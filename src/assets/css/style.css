@@ -1,0 +1,238 @@
+.common-header {
+  padding: 1.2rem 0 1.7rem;
+}
+.common-header > h3 {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: #0a8c16;
+  text-align: center;
+}
+.common-header > h4 {
+  margin-top: 0.4rem;
+  line-height: 1.5;
+  font-size: 13px;
+  color: #a9a7a8;
+  text-align: center;
+}
+.grade-header {
+  padding: 1.4rem 0 1.2rem;
+}
+.grade-header > h6 {
+  margin-top: 0.7rem;
+  font-size: 16px;
+  color: #0a8c16;
+  text-align: center;
+}
+.logo {
+  width: 3.92rem;
+  height: 0.93rem;
+  margin: 0 auto;
+  background: url('../images/logo.png') no-repeat;
+  background-size: contain;
+}
+.school-pic {
+  width: 5.28rem;
+  height: 5.28rem;
+  margin: 0 auto;
+  border-radius: 2.64rem;
+  overflow: hidden;
+}
+.school-pic img {
+  width: 100%;
+  height: 100%;
+}
+.area {
+  padding: 0 1.2rem;
+}
+.item {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-bottom: #e0e0e0 solid 1px;
+  overflow: hidden;
+}
+.item.item-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.item > p {
+  color: #000;
+  white-space: nowrap;
+}
+.item > div {
+  margin-left: 0.2rem;
+}
+.item input {
+  display: inline-block;
+  width: 7.6rem;
+  line-height: 1;
+  font-size: 14px;
+  color: #000;
+  vertical-align: middle;
+  float:left;
+}
+.remindInfo {
+  display: none;
+  margin-top: 0.55rem;
+  font-size: 12px;
+  color: #ec4525;
+  text-align: center;
+}
+.option,
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+}
+.option {
+  color: #a2afbd;
+}
+.arrow {
+  width: 0.23rem;
+  height: 0.46rem;
+  margin-left: 0.25rem;
+  background: url('../images/arrow.png') no-repeat;
+  background-size: contain;
+}
+.search {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-left: 0.25rem;
+  background: url('../images/search.png') no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  float: right;
+}
+.common-btn {
+  display: block;
+  width: 6.9rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  border-radius: 0.7rem;
+  font-size: 16px;
+  background: #7cc356;
+  color: #fff;
+  text-align: center;
+}
+.common-btn.footer-btn {
+  position: absolute;
+  top: 14.2rem;
+  left: 50%;
+  margin-left: -3.45rem;
+}
+.common-btn.open-btn {
+  margin-top: 1.6rem;
+}
+.tips {
+  width: 100%;
+  position: absolute;
+  top: 16.7rem;
+  font-size: 12px;
+  color: #0a8c16;
+  text-align: center;
+}
+.popUp {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.popUp > div {
+  width:80%;
+  max-height:400px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.popUp > div > h6 {
+  line-height: 1.3rem;
+  font-size:0.8rem;
+  color: #0a8c16;
+  text-align: center;
+}
+.popUp > div li {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding-left: 0.55rem;
+  padding-right: 1.1rem;
+  border-bottom: #e0e0e0 solid 1px;
+  color: #888888;
+  position: relative;
+}
+.popUp > div li:last-of-type {
+  border: none;
+}
+.popUp > div li:after {
+  content: '';
+  display: block;
+  width: 0.46rem;
+  height: 0.46rem;
+  background: url('../images/check.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  right: 0.55rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.popUp > div li.checked:after {
+  background: url('../images/checked.png');
+  background-size: contain;
+}
+.input-info li {
+  width: 8.4rem;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  border-bottom: #e0e0e0 solid 1px;
+}
+.input-info li.codeBox input {
+  width: 5.8rem;
+  vertical-align: middle;
+}
+.input-info li.codeBox a {
+  display: inline-block;
+  width: 2.6rem;
+  line-height: 1;
+  color: #a3b1bd;
+  white-space: normal;
+  text-align: right;
+  vertical-align: middle;
+}
+.input-info li input {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: top;
+}
+.open-info {
+  width: 7.5rem;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  margin: 1rem auto 0;
+  font-size: 12px;
+  color: #a9a7a8;
+  text-align: center;
+}
+.open-info em {
+  color: #ec4525;
+}
+::-webkit-input-placeholder {
+    -webkit-text-security: none;
+    color:#000;
+    pointer-events: none;
+    font-family: "微软雅黑";
+}
